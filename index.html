@@ -274,7 +274,13 @@
       box-shadow: 0 8px 40px rgba(0,0,0,0.08);
       border-color: rgba(0,0,0,0.14);
       transform: translateY(-3px);
+      cursor: pointer;
     }
+    .app-card-link {
+      position: absolute; inset: 0; z-index: 0;
+      border-radius: var(--radius);
+    }
+    .app-store-btn { position: relative; z-index: 1; }
 
     .app-header { display: flex; align-items: flex-start; gap: 16px; }
     .app-icon {
@@ -531,6 +537,7 @@
 
       <!-- Tube Star Map -->
       <div class="app-card" data-app="tube">
+        <a class="app-card-link" href="https://altai.app/tube" target="_blank" rel="noopener" aria-label="Learn more about Tube Star Map"></a>
         <div class="app-header">
           <div class="app-icon" data-app="tube"><img src="images/tube.png" alt="Tube Star Map icon"></div>
           <div class="app-meta">
@@ -558,6 +565,7 @@
 
       <!-- Operator Blitz -->
       <div class="app-card" data-app="opblitz">
+        <a class="app-card-link" href="https://altai.app/opblitz" target="_blank" rel="noopener" aria-label="Learn more about Operator Blitz"></a>
         <div class="app-header">
           <div class="app-icon" data-app="opblitz"><img src="images/opblitz.png" alt="Operator Blitz icon"></div>
           <div class="app-meta">
@@ -585,6 +593,7 @@
 
       <!-- VisualRuler -->
       <div class="app-card" data-app="ruler">
+        <a class="app-card-link" href="https://visualrulerapp.com/" target="_blank" rel="noopener" aria-label="Learn more about VisualRuler"></a>
         <div class="app-header">
           <div class="app-icon" data-app="ruler"><img src="images/visualruler.png" alt="VisualRuler icon"></div>
           <div class="app-meta">
@@ -614,6 +623,7 @@
 
       <!-- Poker Hands Quiz -->
       <div class="app-card" data-app="poker">
+        <a class="app-card-link" href="https://altai.app/pokerhand/" target="_blank" rel="noopener" aria-label="Learn more about Poker Hands Quiz"></a>
         <div class="app-header">
           <div class="app-icon" data-app="poker"><img src="images/poker.png" alt="Poker Hands Quiz icon"></div>
           <div class="app-meta">
